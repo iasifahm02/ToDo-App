@@ -1,0 +1,14 @@
+{
+  "name": "mytodo",
+  "version": "1.0.0",
+  "description": "a todo app ",
+  "main": "todoServer.js",
+  "scripts": {
+    "start": "node todoServer.js"
+  },
+  "author": "mohd asif",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
