@@ -6,7 +6,6 @@ const app = express();
 app.use(bodyParser.json());
 
 // const todos = [{id: 123, title: "Hi", description: "I'm Asif"}];
-const todos = [];
 
 //Task 1: Retrieve all todo items
 app.get("/todos", (req, res)=>{
